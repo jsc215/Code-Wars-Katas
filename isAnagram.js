@@ -1,4 +1,4 @@
-var isAnagram = function(test, original) {
+const isAnagram = function(test, original) {
   if (test.length !== original.length) {
     return false;
 	};
